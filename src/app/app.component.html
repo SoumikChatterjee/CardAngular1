@@ -1,0 +1,9 @@
+<h1 class="text-center display-4 mt-5">Pricing</h1>
+<p class='w-50 p-3 m-auto fs-5 fw-light text-center '>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with
+  little customization.</p>
+<div class="d-flex w-75 m-auto gap-4">
+  <div *ngFor="let card of cards">
+    <app-price-card [card]="card"></app-price-card>
+  </div>
+
+</div>
